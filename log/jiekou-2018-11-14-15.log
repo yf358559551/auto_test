@@ -1,0 +1,12 @@
+[2018-11-14 15:59:35.571748] INFO: jiekou: 当前模块 requests封装
+[2018-11-14 15:59:35.572663] INFO: jiekou: 全部args参数参数信息 , ()
+[2018-11-14 15:59:35.572828] INFO: jiekou: 全部kwargs参数信息 , {}
+[2018-11-14 15:59:39.093779] INFO: jiekou: 当前模块 解析测试用例文件
+[2018-11-14 15:59:39.094466] INFO: jiekou: 全部args参数参数信息 , ('/Users/yangfan/www/auto_test/test_01/test_case_data/case.xlsx',)
+[2018-11-14 15:59:39.094890] INFO: jiekou: 全部kwargs参数信息 , {}
+[2018-11-14 15:59:43.123556] INFO: jiekou: 当前模块 解析测试用例文件
+[2018-11-14 15:59:43.123844] INFO: jiekou: 全部args参数参数信息 , ('/Users/yangfan/www/auto_test/test_01/test_case_data/case.xlsx',)
+[2018-11-14 15:59:43.124039] INFO: jiekou: 全部kwargs参数信息 , {}
+[2018-11-14 15:59:49.824457] INFO: jiekou: 当前模块 测试
+[2018-11-14 15:59:50.020671] INFO: jiekou: 全部args参数参数信息 , ()
+[2018-11-14 15:59:50.191529] INFO: jiekou: 全部kwargs参数信息 , {}

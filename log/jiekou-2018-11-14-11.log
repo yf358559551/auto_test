@@ -1,0 +1,7 @@
+[2018-11-14 11:56:46.984354] INFO: jiekou: 当前模块 requests封装
+[2018-11-14 11:56:46.984688] INFO: jiekou: 全部args参数参数信息 , ()
+[2018-11-14 11:56:46.984785] INFO: jiekou: 全部kwargs参数信息 , {}
+[2018-11-14 11:56:47.000787] INFO: jiekou: 当前模块 解析测试用例文件
+[2018-11-14 11:56:47.000954] INFO: jiekou: 全部args参数参数信息 , ('/Users/yangfan/www/auto_test/test_01\\test_case_data\\case.xlsx',)
+[2018-11-14 11:56:47.001150] INFO: jiekou: 全部kwargs参数信息 , {}
+[2018-11-14 11:56:47.001301] INFO: jiekou: 打开测试用例失败，原因是:[Errno 2] No such file or directory: '/Users/yangfan/www/auto_test/test_01\\test_case_data\\case.xlsx'

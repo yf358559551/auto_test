@@ -1,0 +1,62 @@
+[2018-11-14 13:59:44.181077] INFO: jiekou: 当前模块 requests封装
+[2018-11-14 13:59:44.181512] INFO: jiekou: 全部args参数参数信息 , ()
+[2018-11-14 13:59:44.181759] INFO: jiekou: 全部kwargs参数信息 , {}
+[2018-11-14 13:59:44.189728] INFO: jiekou: 当前模块 解析测试用例文件
+[2018-11-14 13:59:44.189885] INFO: jiekou: 全部args参数参数信息 , ('/Users/yangfan/www/auto_test/test_01/test_case_data/case.xlsx',)
+[2018-11-14 13:59:44.189977] INFO: jiekou: 全部kwargs参数信息 , {}
+[2018-11-14 13:59:44.200200] INFO: jiekou: 当前模块 解析测试用例文件
+[2018-11-14 13:59:44.200342] INFO: jiekou: 全部args参数参数信息 , ('/Users/yangfan/www/auto_test/test_01/test_case_data/case.xlsx',)
+[2018-11-14 13:59:44.200430] INFO: jiekou: 全部kwargs参数信息 , {}
+[2018-11-14 13:59:44.202857] INFO: jiekou: 当前模块 测试
+[2018-11-14 13:59:44.203252] INFO: jiekou: 全部args参数参数信息 , ()
+[2018-11-14 13:59:44.203386] INFO: jiekou: 全部kwargs参数信息 , {}
+[2018-11-14 13:59:44.319931] INFO: jiekou: inputdata> 参数:{'password':'1222'}, url:/openapi/api ,返回:{'code': 0, 'result': {'code': 40007, 'text': '您的请求内容为空。'}},预期:code=40001
+[2018-11-14 13:59:44.320124] INFO: jiekou: 当前模块 断言测试结果
+[2018-11-14 13:59:44.320220] INFO: jiekou: 全部args参数参数信息 , ()
+[2018-11-14 13:59:44.320326] INFO: jiekou: 全部kwargs参数信息 , {'asserqiwang': 'code=40001', 'fanhuijson': {'code': 0, 'result': {'code': 40007, 'text': '您的请求内容为空。'}}}
+[2018-11-14 13:59:44.320436] INFO: jiekou: 失败重试中
+[2018-11-14 13:59:44.419601] INFO: jiekou: inputdata> 参数:{'password':'1222'}, url:/openapi/api ,返回:{'code': 0, 'result': {'code': 40007, 'text': '您的请求内容为空。'}},预期:code=40001
+[2018-11-14 13:59:44.419801] INFO: jiekou: 当前模块 断言测试结果
+[2018-11-14 13:59:44.419915] INFO: jiekou: 全部args参数参数信息 , ()
+[2018-11-14 13:59:44.420040] INFO: jiekou: 全部kwargs参数信息 , {'asserqiwang': 'code=40001', 'fanhuijson': {'code': 0, 'result': {'code': 40007, 'text': '您的请求内容为空。'}}}
+[2018-11-14 13:59:44.420133] INFO: jiekou: 失败重试中
+[2018-11-14 13:59:44.518959] INFO: jiekou: inputdata> 参数:{'password':'1222'}, url:/openapi/api ,返回:{'code': 0, 'result': {'code': 40007, 'text': '您的请求内容为空。'}},预期:code=40001
+[2018-11-14 13:59:44.519202] INFO: jiekou: 当前模块 断言测试结果
+[2018-11-14 13:59:44.519355] INFO: jiekou: 全部args参数参数信息 , ()
+[2018-11-14 13:59:44.519463] INFO: jiekou: 全部kwargs参数信息 , {'asserqiwang': 'code=40001', 'fanhuijson': {'code': 0, 'result': {'code': 40007, 'text': '您的请求内容为空。'}}}
+[2018-11-14 13:59:44.519575] INFO: jiekou: 失败重试中
+[2018-11-14 13:59:44.608220] INFO: jiekou: inputdata> 参数:{'password':'1222'}, url:/openapi/api ,返回:{'code': 0, 'result': {'code': 40007, 'text': '您的请求内容为空。'}},预期:code=40001
+[2018-11-14 13:59:44.608458] INFO: jiekou: 当前模块 断言测试结果
+[2018-11-14 13:59:44.608600] INFO: jiekou: 全部args参数参数信息 , ()
+[2018-11-14 13:59:44.608734] INFO: jiekou: 全部kwargs参数信息 , {'asserqiwang': 'code=40001', 'fanhuijson': {'code': 0, 'result': {'code': 40007, 'text': '您的请求内容为空。'}}}
+[2018-11-14 13:59:44.608879] INFO: jiekou: 失败重试中
+[2018-11-14 13:59:44.697326] INFO: jiekou: inputdata> 参数:{'password':'1222'}, url:/openapi/api ,返回:{'code': 0, 'result': {'code': 40007, 'text': '您的请求内容为空。'}},预期:code=40001
+[2018-11-14 13:59:44.697574] INFO: jiekou: 当前模块 断言测试结果
+[2018-11-14 13:59:44.697714] INFO: jiekou: 全部args参数参数信息 , ()
+[2018-11-14 13:59:44.697845] INFO: jiekou: 全部kwargs参数信息 , {'asserqiwang': 'code=40001', 'fanhuijson': {'code': 0, 'result': {'code': 40007, 'text': '您的请求内容为空。'}}}
+[2018-11-14 13:59:44.697996] INFO: jiekou: 失败重试中次数用完，最后结果
+[2018-11-14 13:59:44.940607] INFO: jiekou: inputdata> 参数:{'password':'1222'}, url:/openapi/api ,返回:{'code': 0, 'result': {'code': 40007, 'text': '您的请求内容为空。'}},预期:code=40002
+[2018-11-14 13:59:44.940799] INFO: jiekou: 当前模块 断言测试结果
+[2018-11-14 13:59:44.940895] INFO: jiekou: 全部args参数参数信息 , ()
+[2018-11-14 13:59:44.940984] INFO: jiekou: 全部kwargs参数信息 , {'asserqiwang': 'code=40002', 'fanhuijson': {'code': 0, 'result': {'code': 40007, 'text': '您的请求内容为空。'}}}
+[2018-11-14 13:59:44.941078] INFO: jiekou: 失败重试中
+[2018-11-14 13:59:45.211687] INFO: jiekou: inputdata> 参数:{'password':'1222'}, url:/openapi/api ,返回:{'code': 0, 'result': {'code': 40007, 'text': '您的请求内容为空。'}},预期:code=40002
+[2018-11-14 13:59:45.216403] INFO: jiekou: 当前模块 断言测试结果
+[2018-11-14 13:59:45.216608] INFO: jiekou: 全部args参数参数信息 , ()
+[2018-11-14 13:59:45.216720] INFO: jiekou: 全部kwargs参数信息 , {'asserqiwang': 'code=40002', 'fanhuijson': {'code': 0, 'result': {'code': 40007, 'text': '您的请求内容为空。'}}}
+[2018-11-14 13:59:45.216825] INFO: jiekou: 失败重试中
+[2018-11-14 13:59:45.513133] INFO: jiekou: inputdata> 参数:{'password':'1222'}, url:/openapi/api ,返回:{'code': 0, 'result': {'code': 40007, 'text': '您的请求内容为空。'}},预期:code=40002
+[2018-11-14 13:59:45.513323] INFO: jiekou: 当前模块 断言测试结果
+[2018-11-14 13:59:45.513423] INFO: jiekou: 全部args参数参数信息 , ()
+[2018-11-14 13:59:45.513516] INFO: jiekou: 全部kwargs参数信息 , {'asserqiwang': 'code=40002', 'fanhuijson': {'code': 0, 'result': {'code': 40007, 'text': '您的请求内容为空。'}}}
+[2018-11-14 13:59:45.513613] INFO: jiekou: 失败重试中
+[2018-11-14 13:59:45.608377] INFO: jiekou: inputdata> 参数:{'password':'1222'}, url:/openapi/api ,返回:{'code': 0, 'result': {'code': 40007, 'text': '您的请求内容为空。'}},预期:code=40002
+[2018-11-14 13:59:45.608840] INFO: jiekou: 当前模块 断言测试结果
+[2018-11-14 13:59:45.609207] INFO: jiekou: 全部args参数参数信息 , ()
+[2018-11-14 13:59:45.609576] INFO: jiekou: 全部kwargs参数信息 , {'asserqiwang': 'code=40002', 'fanhuijson': {'code': 0, 'result': {'code': 40007, 'text': '您的请求内容为空。'}}}
+[2018-11-14 13:59:45.609823] INFO: jiekou: 失败重试中
+[2018-11-14 13:59:45.918314] INFO: jiekou: inputdata> 参数:{'password':'1222'}, url:/openapi/api ,返回:{'code': 0, 'result': {'code': 40007, 'text': '您的请求内容为空。'}},预期:code=40002
+[2018-11-14 13:59:45.918503] INFO: jiekou: 当前模块 断言测试结果
+[2018-11-14 13:59:45.918597] INFO: jiekou: 全部args参数参数信息 , ()
+[2018-11-14 13:59:45.918687] INFO: jiekou: 全部kwargs参数信息 , {'asserqiwang': 'code=40002', 'fanhuijson': {'code': 0, 'result': {'code': 40007, 'text': '您的请求内容为空。'}}}
+[2018-11-14 13:59:45.918780] INFO: jiekou: 失败重试中次数用完，最后结果
