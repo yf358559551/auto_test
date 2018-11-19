@@ -73,6 +73,7 @@ shanghai='''<div class="row " style="margin:60px">
             <td><strong>请求方式</strong></td>
             <td><strong>预期</strong></td>
             <td><strong>实际返回</strong></td>  
+            <td><strong>相应用时</strong></td>
             <td><strong>结果</strong></td>
         </tr>
     '''
@@ -86,9 +87,10 @@ def passfail(tend):
     else:
         htl = '<td bgcolor="crimson">exect</td>'
     return htl
-def ceshixiangqing(reslt,id,name,key,coneent,url,meth,yuqi,json,relust):
+def ceshixiangqing(reslt,id,name,key,coneent,url,meth,yuqi,json,relust,elapsed):
     xiangqing='''
         <tr class="case-tr %s">
+            <td>%s</td>
             <td>%s</td>
             <td>%s</td>
             <td>%s</td>
@@ -100,7 +102,7 @@ def ceshixiangqing(reslt,id,name,key,coneent,url,meth,yuqi,json,relust):
             %s
         </tr>
         
-    '''%(reslt,id,name,key,coneent,url,meth,yuqi,json,passfail(relust))
+    '''%(reslt,id,name,key,coneent,url,meth,yuqi,json,elapsed,passfail(relust))
     return xiangqing
 weibu='''</div></div></table><script src="https://code.jquery.com/jquery.js"></script>
 <script src="https://cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -134,7 +136,7 @@ weibu='''</div></div></table><script src="https://code.jquery.com/jquery.js"></s
 	});
 </script>
 </body></html>'''
-def relust(titles,starttime,endtime,passge,fail,id,name,key,coneent,url,meth,yuqi,json,relust,exceptions,weizhi):
+def relust(titles,starttime,endtime,passge,fail,id,name,key,coneent,url,meth,yuqi,json,relust,exceptions,weizhi,elapsed):
     if type(name) ==list:
         relus=' '
         for i in range(len(name)):
@@ -156,13 +158,13 @@ def relust(titles,starttime,endtime,passge,fail,id,name,key,coneent,url,meth,yuq
             if len(keyinfo)>20:
                 keyinfo = keyinfo[0:20]
                 keyinfo = keyinfo+"...."
-            relus+=(ceshixiangqing(clazz,id[i],name[i],keyinfo,coneent[i],url[i],meth[i],yuqi[i],jsoninfo,relust[i]))
+            relus+=(ceshixiangqing(clazz,id[i],name[i],keyinfo,coneent[i],url[i],meth[i],yuqi[i],jsoninfo,relust[i],elapsed[i]))
         text=title(titles)+connent+shouye(starttime,endtime,passge,fail,exceptions,weizhi)+shanghai+relus+weibu
     else:
         text=title(titles)+connent+shouye(starttime,endtime,passge,fail,exceptions,weizhi)+shanghai+ceshixiangqing(id,name,key,coneent,url,meth,yuqi,json,relust)+weibu
     return text
-def createHtml(filepath,titles,starttime,endtime,passge,fail,id,name,key,coneent,url,meth,yuqi,json,relusts,exceptions,weizhi):
+def createHtml(filepath,titles,starttime,endtime,passge,fail,id,name,key,coneent,url,meth,yuqi,json,relusts,exceptions,weizhi,elapsed):
 
-    texts=relust(titles,starttime,endtime,passge,fail,id,name,key,coneent,url,meth,yuqi,json,relusts,exceptions,weizhi)
+    texts=relust(titles,starttime,endtime,passge,fail,id,name,key,coneent,url,meth,yuqi,json,relusts,exceptions,weizhi,elapsed)
     with open(filepath,'wb') as f:
         f.write(texts.encode('utf-8'))

@@ -5,4 +5,4 @@
 """
 Dingtalk_access_token="" #钉钉配置
 TestPlanUrl='http://dev.igancao.com/'  #基础url
-Config_Try_Num=1#失败重试
+Config_Try_Num=0#失败重试
